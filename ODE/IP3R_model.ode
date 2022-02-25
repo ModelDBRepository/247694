@@ -44,7 +44,7 @@ aux IP3inj=pulsamp*f(t)
 init Ca=50, x000=1e3, x010=0, x100=0,x110=0 
 init x001=0,x011=0,x101=0, IP3=15
 
-@ total=2000,dt=0.1,meth=rk4,bounds=1e4
+@ total=2000,dt=0.1,meth=rungekutta,bounds=1e4
 @ maxstore=10000000
 
 done
